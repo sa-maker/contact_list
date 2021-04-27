@@ -1,0 +1,7 @@
+.contactContainer {
+  display: inline-block;
+  width: 40%;
+  padding: 5px 10px;
+  border-bottom: 1px dashed #ccc;
+  margin: 0px 10px;
+}

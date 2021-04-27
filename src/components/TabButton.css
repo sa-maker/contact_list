@@ -1,0 +1,39 @@
+.tabButton {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 1px solid #ccc;
+  background-color: #efefef;
+  min-width: 50px;
+  width: 3.84%;
+  cursor: pointer;
+}
+
+.tabButton:disabled {
+  cursor: default;
+}
+
+.tabButton:hover {
+  background-color: #ddd;
+}
+
+.extraButton {
+  width: 3.7%;
+}
+
+.selected {
+  opacity: 100%;
+  border-bottom: 1px solid #eee;
+  background-image: linear-gradient(to bottom, #ccc, #efefef);
+}
+
+.buttonValue {
+  font-size: 22px;
+}
+
+.buttonLength {
+  font-size: 10px;
+  margin-left: 5px;
+  min-width: 50px;
+}
