@@ -5,23 +5,24 @@ import './ContactTables.css'
 class ContactTables extends React.Component{
 
   render() {
-    const {contacts, selected} = this.props
-    console.log('ContactTables', contacts, selected)
+    const {contacts, selected, openCard, setOpenCard} = this.props
     let selectedContacts = []
     if(typeof contacts[selected] !== 'undefined'){
       selectedContacts = contacts[selected]
     }
-    
-    console.log('selectedContacts', selectedContacts)
 
     return (
       <div className="tablesContainer">
+        <div className="centerContainer">
         { selectedContacts.map((contact, k) => 
           <ContactDetail 
             contact={contact} 
+            openCard={openCard}
+            setOpenCard={setOpenCard.bind(this)}
             key={k}
           />
         )}
+        </div>
       </div>
     )      
   }

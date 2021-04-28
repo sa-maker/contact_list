@@ -1,4 +1,10 @@
 .tablesContainer {
-  padding: 20px;
+  padding: 20px 0px;
   background-color: #eee;
+  padding-bottom: 200px;
+}
+.centerContainer {
+  margin: 0px auto;
+  text-align: left;
+  max-width: 950px;
 }

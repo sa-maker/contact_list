@@ -3,14 +3,24 @@ import ContactOpen from '../components/ContactOpen'
 import './ContactDetail.css'
 
 class ContactDetail extends React.Component{
-
+  
     render() {
-      const {contact} = this.props
-      
+      const {contact, openCard, setOpenCard} = this.props
+
+      let openBlock = ''
+      if(openCard === contact.login.username){
+        openBlock = <ContactOpen 
+          className="contactOpenContainer" 
+          setOpenCard={setOpenCard.bind(this)}
+          contact={contact}  
+          />
+      }
+
       return (
-        <div className="contactContainer">
-          {contact.name.first}, {contact.name.last.toUpperCase()} 
-          <ContactOpen contact={contact} />
+        <div className="contactContainer" >
+          <span onClick={()=>setOpenCard(contact.login.username)} className="contactContainerLink">{contact.name.first}, {contact.name.last.toUpperCase()} </span>
+          {openBlock}
+          
         </div>
       )      
     }

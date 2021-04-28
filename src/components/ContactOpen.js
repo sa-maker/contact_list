@@ -3,44 +3,46 @@ import './ContactOpen.css'
 
 class ContactOpen extends React.Component{
   render() {
-    const {contact} = this.props
+    const {contact, setOpenCard} = this.props
     
     return (
       <div className="openContactContainer">
+        <div onClick={()=>setOpenCard('')} className="openContactClose" >X</div>
         <div className="leftContainer">
-            <div className="openContactClose">X</div>
-            <img src={contact.picture.large} class="avatar" />
+          <img src={contact.picture.large} alt="Contact profile" className="avatar" />
         </div>
         <div className="rightContainer">  
-            <span className="openContactName">  
+          <span className="openContactName">  
             {contact.name.last.toUpperCase()}, {contact.name.first}  
-            </span>
-            <table class="openContactDetails" cellPadding='0px' cellmargin='0px'>
+          </span>
+          <table className="openContactDetails" cellPadding='0px' cellmargin='0px'>
+            <tbody>
             <tr>
-                <th>e-mail</th>
-                <td>{contact.email}</td>
+              <th>e-mail</th>
+              <td>{contact.email}</td>
             </tr>
             <tr>
-                <th>phone</th>
-                <td>{contact.cell}</td>
+              <th>phone</th>
+              <td>{contact.cell}</td>
             </tr>
             <tr>
-                <th>street</th>
-                <td>{contact.location.street.number} {contact.location.street.name}</td>
+              <th>street</th>
+              <td>{contact.location.street.number} {contact.location.street.name}</td>
             </tr>
             <tr>
-                <th>city</th>
-                <td>{contact.location.city}</td>
+              <th>city</th>
+              <td>{contact.location.city}</td>
             </tr>
             <tr>
-                <th>state</th>
-                <td>{contact.location.state}</td>
+              <th>state</th>
+              <td>{contact.location.state}</td>
             </tr>
             <tr>
-                <th>postcode</th>
-                <td>{contact.location.postcode}</td>
+              <th>postcode</th>
+              <td>{contact.location.postcode}</td>
             </tr>
-            </table>
+            </tbody>
+          </table>
         </div>
         <div className="contactUsername">
             USERNAME {contact.login.username}
