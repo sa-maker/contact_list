@@ -3,11 +3,8 @@ import './TabButton.css';
 
 class TabButton extends React.Component{
 
-  getButtonClass(extraButton, selected){
+  getButtonClass(selected){
     let ret_val = "tabButton " 
-    if(extraButton) {
-      ret_val += "extraButton "
-    }
     if(selected){
       ret_val += "selected "
     }
@@ -15,13 +12,13 @@ class TabButton extends React.Component{
   }
 
   render() {
-    const {value, length, extraButton, selected, setSelected } = this.props
+    const {value, length, selected, setSelected } = this.props
     
     
     return (
       <button 
         disabled={length === 0} 
-        className={this.getButtonClass(extraButton, selected)} 
+        className={this.getButtonClass(selected)} 
         onClick={() => setSelected(value)  }
       >
           <span className="buttonValue">{value}</span>

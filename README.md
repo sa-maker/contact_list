@@ -21,14 +21,16 @@ Build a list of contacts in React.
 
 ## Build process
 
+The following process assumes that there are unfamiliar or new technologies to the developer/team and that test-driven development cannot be done
+
 1. Reasearch the best code structure for the project
 2. Initiate a base codebase
 3. Detirmane what technologies required are new, or unclear
 4. Build a proof of concept showcasing the new technologies
-5. Fleshout the proof of concept into a functional system
-6. Ensure that the layout adhears to the design
-7. Test the system end to end
-8. Update the unittests and the documentation
+5. Fleshout the proof of concept into a functional system remove unwanted code and logic (this might require a rework or start from scratch approch)
+6. Ensure that the layout adhears to the UI design
+7. Update the unittests and the documentation
+8. Test the system
 
 ## Documentation
 

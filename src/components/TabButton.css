@@ -18,10 +18,6 @@
   background-color: #ddd;
 }
 
-.extraButton {
-  width: 3.7%;
-}
-
 .selected {
   opacity: 100%;
   border-bottom: 1px solid #eee;

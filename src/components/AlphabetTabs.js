@@ -12,7 +12,6 @@ class AlphabetTabs extends React.Component{
           <TabButton 
             value={t[0]} 
             length={t[1].length} 
-            extraButton={typeof contacts['_'] !== 'undefined'} 
             selected={selected===t[0]}
             setSelected={setSelected.bind(this) }
             key={k}
