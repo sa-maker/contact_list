@@ -14,6 +14,9 @@
   text-align: left;
   font-size: 12px;
 }
+.openContactDetails th {
+  padding-right: 5px;
+}
 .leftContainer {
   vertical-align: top;
   display: inline-block;
