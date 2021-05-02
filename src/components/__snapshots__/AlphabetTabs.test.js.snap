@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Open Card displays props 1`] = `
+<div
+  className="tabContainer"
+>
+  <button
+    className="tabButton selected "
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="buttonValue"
+    >
+      a
+    </span>
+    <span
+      className="buttonLength"
+    >
+      3
+    </span>
+  </button>
+  <button
+    className="tabButton "
+    disabled={true}
+    onClick={[Function]}
+  >
+    <span
+      className="buttonValue"
+    >
+      b
+    </span>
+    <span
+      className="buttonLength"
+    >
+      0
+    </span>
+  </button>
+  <button
+    className="tabButton "
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="buttonValue"
+    >
+      c
+    </span>
+    <span
+      className="buttonLength"
+    >
+      2
+    </span>
+  </button>
+  <button
+    className="tabButton "
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="buttonValue"
+    >
+      d
+    </span>
+    <span
+      className="buttonLength"
+    >
+      3
+    </span>
+  </button>
+</div>
+`;

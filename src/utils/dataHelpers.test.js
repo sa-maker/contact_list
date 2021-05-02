@@ -1,4 +1,4 @@
-import {tabeliseList} from './dataHelpers'
+import {tabeliseList} from './DataHelpers'
 
 describe('the Contact_list ', () => {
     const objList = [

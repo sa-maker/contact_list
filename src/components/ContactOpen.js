@@ -4,7 +4,6 @@ import './ContactOpen.css'
 class ContactOpen extends React.Component{
   render() {
     const {contact, setOpenCard} = this.props
-    
     return (
       <div className="openContactContainer">
         <div onClick={()=>setOpenCard('')} className="openContactClose" >X</div>

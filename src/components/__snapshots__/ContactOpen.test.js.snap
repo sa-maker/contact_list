@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Open Card displays props 1`] = `
+<div
+  className="openContactContainer"
+>
+  <div
+    className="openContactClose"
+    onClick={[Function]}
+  >
+    X
+  </div>
+  <div
+    className="leftContainer"
+  >
+    <img
+      alt="Contact profile"
+      className="avatar"
+      src="https://randomuser.me/api/portraits/men/51.jpg"
+    />
+  </div>
+  <div
+    className="rightContainer"
+  >
+    <span
+      className="openContactName"
+    >
+      DENIS
+      , 
+      Mahé
+    </span>
+    <table
+      cellPadding="0px"
+      cellmargin="0px"
+      className="openContactDetails"
+    >
+      <tbody>
+        <tr>
+          <th>
+            e-mail
+          </th>
+          <td>
+            mahe.denis@example.com
+          </td>
+        </tr>
+        <tr>
+          <th>
+            phone
+          </th>
+          <td>
+            06-71-59-27-17
+          </td>
+        </tr>
+        <tr>
+          <th>
+            street
+          </th>
+          <td>
+            5576
+             
+            Rue de L'Abbé-Groult
+          </td>
+        </tr>
+        <tr>
+          <th>
+            city
+          </th>
+          <td>
+            Poitiers
+          </td>
+        </tr>
+        <tr>
+          <th>
+            state
+          </th>
+          <td>
+            Haute-Corse
+          </td>
+        </tr>
+        <tr>
+          <th>
+            postcode
+          </th>
+          <td>
+            86468
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="contactUsername"
+  >
+    USERNAME 
+    lazykoala877
+  </div>
+</div>
+`;

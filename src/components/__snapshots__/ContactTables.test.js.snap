@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Tabels displays props 1`] = `
+<div
+  className="tablesContainer"
+>
+  <div
+    className="centerContainer"
+  >
+    <div
+      className="contactContainer"
+    >
+      <span
+        className="contactContainerLink"
+        onClick={[Function]}
+      >
+        Soham
+        , 
+        ALVAREZ
+         
+      </span>
+      
+    </div>
+  </div>
+</div>
+`;

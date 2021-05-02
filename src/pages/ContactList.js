@@ -1,7 +1,7 @@
 import React from 'react';
 import AlphabetTabs from '../components/AlphabetTabs'
 import ContactTables from '../components/ContactTables'
-import {tabeliseList} from '../utils/dataHelpers'
+import {tabeliseList} from '../utils/DataHelpers'
 import './ContactList.css';
 import axios from 'axios'
 import {title, userUrl, numberCards, tabs } from './contactListConfig.json'

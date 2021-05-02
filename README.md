@@ -1,6 +1,6 @@
 # Introduction
 
-Build a list of contacts in React.
+This is a project build in React according to a set of requirements that is listed in this document. The aim it to build a list of contacts.
 
 # Behavior
 
@@ -11,32 +11,41 @@ Build a list of contacts in React.
 
 # Next steps
 
-- Setup the code to accept bootstap or Tailwind to alow better maintanance accross multiple developers and improve the responsiveness
-- Implement Redux(or similar) for better state management accross components ie. the 'selected' and 'openCard' variables in ContactList.js
-- Make the naming international. The tabs are only aplicable to the western names, it needs to extend to international names. this could be fixed with the contactListConfig.json 'tabs' variable. As it is the current system ignores all names that does not fit into the 'tabs' list
+- Implement Bootstap or Tailwind to allow better maintenance across multiple developers and improve the site's responsiveness
+- Implement Redux (or similar) for better state management across components i.e. the 'selected' and 'openCard' variables in ContactList.js
+- Make the naming international. The tabs are only applicable to the western names, it needs to extend to international names. This could be fixed with the contactListConfig.json 'tabs' variable. As it is the current system ignores all names that does not fit into the 26 western tabs list
 
 ## Responsiveness
 
-- the site is responsive. If the flow of the top menu structure is not adequit a better solution can be devised using a diffrent menu system, something like a dropdown or a carosell, but this will be done after a discussion with the UXUI designer
+The site is currently variably responsive. If the flow of the top menu structure is not adequate, a better solution can be devised using a different menu system, something like a drop-down or a carousel, but this will be done after a discussion with the UXUI designer
 
 ## Build process
 
-The following process assumes that there are unfamiliar or new technologies to the developer/team and that test-driven development cannot be done
+The following process assumes that there are unfamiliar or new technologies to the developer/team.
+(For a pure test driven solution the test would have been developed before the functionality was coded.)
 
-1. Reasearch the best code structure for the project
-2. Initiate a base codebase
-3. Detirmane what technologies required are new, or unclear
-4. Build a proof of concept showcasing the new technologies
-5. Fleshout the proof of concept into a functional system remove unwanted code and logic (this might require a rework or start from scratch approch)
-6. Ensure that the layout adhears to the UI design
-7. Update the unittests and the documentation
+1. Research the best code structure for the project
+2. Initiate a code-base
+3. Determine what technologies required are new, or unclear
+4. Build a proof of concept, showcasing the new or unclear technologies
+5. Flesh out the proof of concept into a functional system and remove all unwanted code and logic (this might require a rework or 'start from scratch' approach)
+6. Ensure that the layout ad hears to the UI design
+7. Update the tests and the documentation
 8. Test the system
+9. build and deploy the final code
 
 ## Documentation
 
+For this project the documentation can be found in the README.md file as well in the Documentation folder on the main directory of the project.
+
 ## Unit testing
 
+For this project basic snapshot testing was implemented on the components and unit testing on the helper functions
+
 ## Live version
+
+You can view the live demo here:
+https://sa-maker.github.io/contact_list/index.html
 
 # Requirements
 
