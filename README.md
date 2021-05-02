@@ -2,14 +2,19 @@
 
 This is a project build in React according to a set of requirements that is listed in this document. The aim it to build a list of contacts.
 
-# Behavior
+## Live version
+
+You can view the live demo here:
+https://sa-maker.github.io/contact_list/index.html
+
+## Behavior
 
 - The contacts should be grouped in tabs.
 - When clicking on a contact, its card should be displayed.
 - When clicking on the close button of a card, it should disappear.
 - While a contact card is being displayed, if another contact is clicked, the first clicked contact card should disappear.
 
-# Next steps
+## Next steps
 
 - Implement Bootstap or Tailwind to allow better maintenance across multiple developers and improve the site's responsiveness
 - Implement Redux (or similar) for better state management across components i.e. the 'selected' and 'openCard' variables in ContactList.js
@@ -41,11 +46,6 @@ For this project the documentation can be found in the README.md file as well in
 ## Unit testing
 
 For this project basic snapshot testing was implemented on the components and unit testing on the helper functions
-
-## Live version
-
-You can view the live demo here:
-https://sa-maker.github.io/contact_list/index.html
 
 # Requirements
 
